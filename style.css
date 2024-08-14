@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 html {
   height: 100%;
   width: 100%;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
   background-color: #ffcc99;
   color: #8b4513;
   margin: 0;
-  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -54,4 +59,22 @@ nav a {
   color: saddlebrown;
   margin: 1em 0;
   text-decoration: none;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+hr {
+  border: 1px solid #4CAF50;
 }
