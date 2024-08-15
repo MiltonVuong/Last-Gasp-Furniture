@@ -97,10 +97,11 @@ function purchase() {
     validInput = false;
   } while (continueShopping === 0);
   // Loop until a valid state abbreviation is entered
+  // "\nNote: Shipping only available in the contiguous United States." removed this extra bit as all abbreviations were added to zone5
   while (!validInput) {
     shipState = inputIsValid(
       `Please enter the two-letter state abbreviation.`,
-      `Invalid choice, please enter a two-letter state abbreviation. \nNote: Shipping only available in the contiguous United States.`,
+      `Invalid choice, please enter a two-letter state abbreviation.`,
       postalAbbrs,
       'string'
     );
