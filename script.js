@@ -47,11 +47,11 @@ function purchase() {
   const postalAbbrs = ["AK", "DC", "HI", "PR", "VI","AL", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"];
   // Arrays for shipping zones
   // Made assumptions for the mixed shipping zones based on which color they were "mostly"
-  // Added unlisted abbreviations to zone5 as noted on the discussion. DC was also added here 
-  const zone5 = ["AK", "DC", "HI", "PR", "VI","WA", "OR", "CA", "NV", "AZ", "UT", "ID", "WY", "MT", "NM"];
+  // Added unlisted abbreviations to zone5 as noted on the discussion. DC added to zone 2 
+  const zone5 = ["AK", "HI", "PR", "VI","WA", "OR", "CA", "NV", "AZ", "UT", "ID", "WY", "MT", "NM"];
   const zone4 = ["ND", "SD", "NE", "CO", "OK", "AR", "LA", "MS"];
   const zone3 = ["MN", "WI", "MI", "IA", "IL", "KS", "MO", "TN", "AL", "GA", "FL", "TX"];
-  const zone2 = ["IN", "OH", "KY", "WV", "PA", "DE", "MD", "VA", "NC", "SC"];
+  const zone2 = ["DC", "IN", "OH", "KY", "WV", "PA", "DE", "MD", "VA", "NC", "SC"];
   // Arrays for invoice details
   let invoiceItem = [];
   let invoiceQuantity = [];
